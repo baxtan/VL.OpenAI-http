@@ -945,7 +945,7 @@
                   <Choice Kind="ImmutableTypeFlag" Name="String" />
                 </p:TypeAnnotation>
               </Pad>
-              <ControlPoint Id="D3xAciE1WjXNLfB5Gd4wam" Bounds="344,628" />
+              <ControlPoint Id="D3xAciE1WjXNLfB5Gd4wam" Bounds="345,620" />
               <ControlPoint Id="FclpQA4cyvDLIuydGutdov" Bounds="396,223" />
               <Node Bounds="84,458,25,19" Id="FwiFrMB9R6ROi6atpXV9Vp">
                 <p:NodeReference LastCategoryFullName="Math" LastDependency="VL.CoreLib.vl">
@@ -972,25 +972,6 @@
               <ControlPoint Id="EOeiwVE3P2XQb0D7NHsUVA" Bounds="426,306" />
               <ControlPoint Id="I5rGJ9a8E5EMylt3aJqwJO" Bounds="456,340" />
               <ControlPoint Id="SK9HsYBduYaPu31VRhZt0f" Bounds="486,365" />
-              <ControlPoint Id="JsheBu2w1lWQMe68L5F5s1" Bounds="366,600" />
-              <Node Bounds="540,663,61,19" Id="CjTLJAgRk78PDhHGC7yLSR">
-                <p:NodeReference LastCategoryFullName="Graphics.Skia.IO" LastDependency="VL.Skia.vl">
-                  <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                  <Choice Kind="ProcessAppFlag" Name="GifReader (Url)" />
-                </p:NodeReference>
-                <Pin Id="Hgprh30zrVEPNEA58bfevR" Name="Node Context" Kind="InputPin" IsHidden="true" />
-                <Pin Id="UUbLbUibIQ8LkZpx1ClxIA" Name="Url" Kind="InputPin" />
-                <Pin Id="MVsYzzJ8dPaPCSxd9i4vtY" Name="Load" Kind="InputPin" />
-                <Pin Id="AzHeqXxfgtpORFlHhic3z6" Name="Output" Kind="OutputPin" />
-              </Node>
-              <Node Bounds="480,729,63,19" Id="QSOBzic4VUZLIPdNi1Q9Lb">
-                <p:NodeReference LastCategoryFullName="Primitive.String" LastDependency="VL.CoreLib.vl">
-                  <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                  <Choice Kind="OperationCallFlag" Name="FromBytes (Base64)" />
-                </p:NodeReference>
-                <Pin Id="EztDVmrgxX8LtB3j6licS4" Name="Input" Kind="StateInputPin" />
-                <Pin Id="M0SEMZJyLmNNvGs384qmgC" Name="Result" Kind="OutputPin" />
-              </Node>
             </Canvas>
             <ProcessDefinition Id="JVPDqnK6yfTNbD9rrZJX9X">
               <Fragment Id="J1nShlznfVlMpjbJgTSlLI" Patch="OBwx1iqdqFxPblCzNqAPhb" Enabled="true" />
@@ -1023,8 +1004,6 @@
             <Link Id="NO1rMgdV8PQL6xwGAbFTgM" Ids="SK9HsYBduYaPu31VRhZt0f,O0H5nF9Q87dOFIEkUtNgUk" />
             <Link Id="EqKvOtipE1uOrRgEeS6dzD" Ids="RBP8NA5IwUcNDNFYAdDxbC,SK9HsYBduYaPu31VRhZt0f" IsHidden="true" />
             <Link Id="K06ekI3xYQkLsD6qT1jdBb" Ids="SIq5wyz3Nq3MScxsIHtJOj,AgBeALigxoPLWALC7wU0UN" />
-            <Link Id="SiRoR67aNuROPSa33BuyhN" Ids="PLm8V55JxImPoqHtm5EJfV,JsheBu2w1lWQMe68L5F5s1" />
-            <Link Id="Lpj3XD5C457NOtQmm0c6LF" Ids="JsheBu2w1lWQMe68L5F5s1,Op5H7VXzlqSQTAiycWQkyk" IsHidden="true" />
             <Patch Id="OBwx1iqdqFxPblCzNqAPhb" Name="Create" />
             <Patch Id="SLPLLtZZ8xTLZJbsrplHxB" Name="Update">
               <Pin Id="JVGuut2nREHOHipYR3eDRK" Name="End Point" Kind="InputPin" />
@@ -1035,10 +1014,8 @@
               <Pin Id="RBP8NA5IwUcNDNFYAdDxbC" Name="Size" Kind="InputPin" />
               <Pin Id="Tlj5V2pJ1l3QUxVc8V7njV" Name="Refresh" Kind="InputPin" Bounds="980,805" />
               <Pin Id="IMfcHjk54S6NFF2PTgBLiP" Name="Content" Kind="OutputPin" />
-              <Pin Id="Op5H7VXzlqSQTAiycWQkyk" Name="Raw Bytes" Kind="OutputPin" />
               <Pin Id="VJ5QYigCErdP2XQkADWZEM" Name="In Progress" Kind="OutputPin" />
             </Patch>
-            <Link Id="JgxIFLnkTPoLHTtWFv2hzC" Ids="PLm8V55JxImPoqHtm5EJfV,EztDVmrgxX8LtB3j6licS4" />
           </Patch>
         </Node>
         <!--
@@ -1603,7 +1580,7 @@
             <Pin Id="BQV1xayy8iTPu4fcF4H2gU" Name="Content" Kind="OutputPin" />
             <Pin Id="KgwRqOhIwSZP1UGJS5SXOt" Name="In Progress" Kind="OutputPin" />
           </Node>
-          <Pad Id="QxDLAndyNqBQIaojOW6yGL" Comment="API Key - starting with &quot;sk-...&quot;" Bounds="185,201,22,15" ShowValueBox="true" isIOBox="true" Value="sk-">
+          <Pad Id="QxDLAndyNqBQIaojOW6yGL" Comment="API Key - starting with &quot;sk-...&quot;" Bounds="185,201,91,15" ShowValueBox="true" isIOBox="true" Value="sk-">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -1699,7 +1676,6 @@
             <Pin Id="KdH2R3qDUIkNEhJcKpjTW9" Name="Size" Kind="InputPin" />
             <Pin Id="IXAPr6rpALxOGvzaCKc2tJ" Name="Refresh" Kind="InputPin" />
             <Pin Id="BZPeaypbcooMxjSJI1GlL0" Name="Content" Kind="OutputPin" />
-            <Pin Id="CWzQkPOFX6NPYVAg4FP8CO" Name="Raw Bytes" Kind="OutputPin" />
             <Pin Id="DLC32eZOMTdNBtdUjI6XLv" Name="In Progress" Kind="OutputPin" />
           </Node>
           <Pad Id="LiwR8z7WSYTOszVhJlPIzb" Comment="In Progress" Bounds="868,464,35,35" ShowValueBox="true" isIOBox="true" />
@@ -1708,7 +1684,7 @@
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="AirEUy45C01L8pq7MH4p2S" Comment="API Key - starting with &quot;sk-...&quot;" Bounds="767,195,26,15" ShowValueBox="true" isIOBox="true" Value="sk-">
+          <Pad Id="AirEUy45C01L8pq7MH4p2S" Comment="API Key - starting with &quot;sk-...&quot;" Bounds="767,195,89,15" ShowValueBox="true" isIOBox="true" Value="sk-">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -1815,9 +1791,9 @@
         <Choice Kind="TypeFlag" Name="Response" />
       </p:TypeAnnotation>
     </Slot>
-    <Link Id="PL5MQSXovCjQbIIx9QHHVi" Ids="Kl8WsUPOi80P3Q85dgyiZN,QYszlOTFYkoQCxtrvSfxdN" IsHidden="true" />
-    <Link Id="Pf6WaN47MvrQUOQLjdRr8r" Ids="SjqDupWhY0QP2HqTXb0G6Y,CGrDMEEXstnNip0DcVKFuY" />
-    <Link Id="KNTU6uHuYJBM6L6j5CKVgP" Ids="VwmkWBSfnhqMWq6vwcwXKm,J9ryWWDsbiWOAcVNazgU6T" />
+    <Link Id="PL5MQSXovCjQbIIx9QHHVi" Ids="Kl8WsUPOi80P3Q85dgyiZN,J5LF5aFs55kNPGiIMq8kEt" IsHidden="true" />
+    <Link Id="Pf6WaN47MvrQUOQLjdRr8r" Ids="MXXXa7W8UcIMNVCulizGFr,Oi2whykVgdwOJoo1QHNcO7" />
+    <Link Id="KNTU6uHuYJBM6L6j5CKVgP" Ids="I5UFmTBS6ykMHNaEudU4tI,TXba3LDI4IiPMFm5n0c7nc" />
   </Patch>
   <NugetDependency Id="Om7WVk0ON3tNi0YY1XyORd" Location="VL.SimpleHTTP" Version="1.2.1" />
   <NugetDependency Id="BcYCp3MjYcWN3xDf15UAT1" Location="VL.Serialization.FSPickler" Version="2024.6.0" />
